@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.egg-info/
+.venv/
+q_venv/
+build/
+dist/
+.pytest_cache/
+.coverage
+
+# Generated circuits, benchmark output, and logs
+circuits/
+temp/
+logs/
+final_performance_results.csv
+
+# Local IDE and OS files
+.vscode/
+.idea/
+.DS_Store

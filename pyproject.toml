@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel", "numpy", "pybind11"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qdes"
+version = "1.0.0"
+description = "QDES quantum circuit simulation package"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.23"]
+
+[project.optional-dependencies]
+model = ["onnxruntime>=1.16"]
+train = ["torch>=2.0", "onnxruntime>=1.16"]
+test = ["pytest>=7", "quimb>=1.8"]
+dev = ["qdes[model,train,test]"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+qdes = ["*.so", "*.pyd"]
