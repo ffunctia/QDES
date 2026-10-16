@@ -1,0 +1,349 @@
+Tests per qubit: 25
+Tests Producting...
+Circuiy Producting: Test 001 (16 Qubit)
+Test 001 generated: circuits/test_001_16q.pkl
+Running: Test 001 (16 Qubit, 247 Gates)
+Circuiy Producting: Test 002 (16 Qubit)
+Test 002 generated: circuits/test_002_16q.pkl
+Running: Test 002 (16 Qubit, 246 Gates)
+Circuiy Producting: Test 003 (16 Qubit)
+Test 003 generated: circuits/test_003_16q.pkl
+Running: Test 003 (16 Qubit, 242 Gates)
+Circuiy Producting: Test 004 (16 Qubit)
+Test 004 generated: circuits/test_004_16q.pkl
+Running: Test 004 (16 Qubit, 244 Gates)
+Circuiy Producting: Test 005 (16 Qubit)
+Test 005 generated: circuits/test_005_16q.pkl
+Running: Test 005 (16 Qubit, 245 Gates)
+Circuiy Producting: Test 006 (16 Qubit)
+Test 006 generated: circuits/test_006_16q.pkl
+Running: Test 006 (16 Qubit, 245 Gates)
+Circuiy Producting: Test 007 (16 Qubit)
+Test 007 generated: circuits/test_007_16q.pkl
+Running: Test 007 (16 Qubit, 243 Gates)
+Circuiy Producting: Test 008 (16 Qubit)
+Test 008 generated: circuits/test_008_16q.pkl
+Running: Test 008 (16 Qubit, 245 Gates)
+Circuiy Producting: Test 009 (16 Qubit)
+Test 009 generated: circuits/test_009_16q.pkl
+Running: Test 009 (16 Qubit, 241 Gates)
+Circuiy Producting: Test 010 (16 Qubit)
+Test 010 generated: circuits/test_010_16q.pkl
+Running: Test 010 (16 Qubit, 243 Gates)
+Circuiy Producting: Test 011 (16 Qubit)
+Test 011 generated: circuits/test_011_16q.pkl
+Running: Test 011 (16 Qubit, 240 Gates)
+Circuiy Producting: Test 012 (16 Qubit)
+Test 012 generated: circuits/test_012_16q.pkl
+Running: Test 012 (16 Qubit, 243 Gates)
+Circuiy Producting: Test 013 (16 Qubit)
+Test 013 generated: circuits/test_013_16q.pkl
+Running: Test 013 (16 Qubit, 243 Gates)
+Circuiy Producting: Test 014 (16 Qubit)
+Test 014 generated: circuits/test_014_16q.pkl
+Running: Test 014 (16 Qubit, 237 Gates)
+Circuiy Producting: Test 015 (16 Qubit)
+Test 015 generated: circuits/test_015_16q.pkl
+Running: Test 015 (16 Qubit, 240 Gates)
+Circuiy Producting: Test 016 (16 Qubit)
+Test 016 generated: circuits/test_016_16q.pkl
+Running: Test 016 (16 Qubit, 245 Gates)
+Circuiy Producting: Test 017 (16 Qubit)
+Test 017 generated: circuits/test_017_16q.pkl
+Running: Test 017 (16 Qubit, 243 Gates)
+Circuiy Producting: Test 018 (16 Qubit)
+Test 018 generated: circuits/test_018_16q.pkl
+Running: Test 018 (16 Qubit, 247 Gates)
+Circuiy Producting: Test 019 (16 Qubit)
+Test 019 generated: circuits/test_019_16q.pkl
+Running: Test 019 (16 Qubit, 240 Gates)
+Circuiy Producting: Test 020 (16 Qubit)
+Test 020 generated: circuits/test_020_16q.pkl
+Running: Test 020 (16 Qubit, 239 Gates)
+Circuiy Producting: Test 021 (16 Qubit)
+Test 021 generated: circuits/test_021_16q.pkl
+Running: Test 021 (16 Qubit, 243 Gates)
+Circuiy Producting: Test 022 (16 Qubit)
+Test 022 generated: circuits/test_022_16q.pkl
+Running: Test 022 (16 Qubit, 246 Gates)
+Circuiy Producting: Test 023 (16 Qubit)
+Test 023 generated: circuits/test_023_16q.pkl
+Running: Test 023 (16 Qubit, 240 Gates)
+Circuiy Producting: Test 024 (16 Qubit)
+Test 024 generated: circuits/test_024_16q.pkl
+Running: Test 024 (16 Qubit, 242 Gates)
+Circuiy Producting: Test 025 (16 Qubit)
+Test 025 generated: circuits/test_025_16q.pkl
+Running: Test 025 (16 Qubit, 236 Gates)
+Circuiy Producting: Test 026 (20 Qubit)
+Test 026 generated: circuits/test_026_20q.pkl
+Running: Test 026 (20 Qubit, 299 Gates)
+Circuiy Producting: Test 027 (20 Qubit)
+Test 027 generated: circuits/test_027_20q.pkl
+Running: Test 027 (20 Qubit, 298 Gates)
+Circuiy Producting: Test 028 (20 Qubit)
+Test 028 generated: circuits/test_028_20q.pkl
+Running: Test 028 (20 Qubit, 304 Gates)
+Circuiy Producting: Test 029 (20 Qubit)
+Test 029 generated: circuits/test_029_20q.pkl
+Running: Test 029 (20 Qubit, 309 Gates)
+Circuiy Producting: Test 030 (20 Qubit)
+Test 030 generated: circuits/test_030_20q.pkl
+Running: Test 030 (20 Qubit, 309 Gates)
+Circuiy Producting: Test 031 (20 Qubit)
+Test 031 generated: circuits/test_031_20q.pkl
+Running: Test 031 (20 Qubit, 302 Gates)
+Circuiy Producting: Test 032 (20 Qubit)
+Test 032 generated: circuits/test_032_20q.pkl
+Running: Test 032 (20 Qubit, 301 Gates)
+Circuiy Producting: Test 033 (20 Qubit)
+Test 033 generated: circuits/test_033_20q.pkl
+Running: Test 033 (20 Qubit, 307 Gates)
+Circuiy Producting: Test 034 (20 Qubit)
+Test 034 generated: circuits/test_034_20q.pkl
+Running: Test 034 (20 Qubit, 304 Gates)
+Circuiy Producting: Test 035 (20 Qubit)
+Test 035 generated: circuits/test_035_20q.pkl
+Running: Test 035 (20 Qubit, 307 Gates)
+Circuiy Producting: Test 036 (20 Qubit)
+Test 036 generated: circuits/test_036_20q.pkl
+Running: Test 036 (20 Qubit, 300 Gates)
+Circuiy Producting: Test 037 (20 Qubit)
+Test 037 generated: circuits/test_037_20q.pkl
+Running: Test 037 (20 Qubit, 305 Gates)
+Circuiy Producting: Test 038 (20 Qubit)
+Test 038 generated: circuits/test_038_20q.pkl
+Running: Test 038 (20 Qubit, 301 Gates)
+Circuiy Producting: Test 039 (20 Qubit)
+Test 039 generated: circuits/test_039_20q.pkl
+Running: Test 039 (20 Qubit, 308 Gates)
+Circuiy Producting: Test 040 (20 Qubit)
+Test 040 generated: circuits/test_040_20q.pkl
+Running: Test 040 (20 Qubit, 307 Gates)
+Circuiy Producting: Test 041 (20 Qubit)
+Test 041 generated: circuits/test_041_20q.pkl
+Running: Test 041 (20 Qubit, 305 Gates)
+Circuiy Producting: Test 042 (20 Qubit)
+Test 042 generated: circuits/test_042_20q.pkl
+Running: Test 042 (20 Qubit, 304 Gates)
+Circuiy Producting: Test 043 (20 Qubit)
+Test 043 generated: circuits/test_043_20q.pkl
+Running: Test 043 (20 Qubit, 298 Gates)
+Circuiy Producting: Test 044 (20 Qubit)
+Test 044 generated: circuits/test_044_20q.pkl
+Running: Test 044 (20 Qubit, 306 Gates)
+Circuiy Producting: Test 045 (20 Qubit)
+Test 045 generated: circuits/test_045_20q.pkl
+Running: Test 045 (20 Qubit, 299 Gates)
+Circuiy Producting: Test 046 (20 Qubit)
+Test 046 generated: circuits/test_046_20q.pkl
+Running: Test 046 (20 Qubit, 311 Gates)
+Circuiy Producting: Test 047 (20 Qubit)
+Test 047 generated: circuits/test_047_20q.pkl
+Running: Test 047 (20 Qubit, 305 Gates)
+Circuiy Producting: Test 048 (20 Qubit)
+Test 048 generated: circuits/test_048_20q.pkl
+Running: Test 048 (20 Qubit, 305 Gates)
+Circuiy Producting: Test 049 (20 Qubit)
+Test 049 generated: circuits/test_049_20q.pkl
+Running: Test 049 (20 Qubit, 308 Gates)
+Circuiy Producting: Test 050 (20 Qubit)
+Test 050 generated: circuits/test_050_20q.pkl
+Running: Test 050 (20 Qubit, 303 Gates)
+Circuiy Producting: Test 051 (24 Qubit)
+Test 051 generated: circuits/test_051_24q.pkl
+Running: Test 051 (24 Qubit, 363 Gates)
+Circuiy Producting: Test 052 (24 Qubit)
+Test 052 generated: circuits/test_052_24q.pkl
+Running: Test 052 (24 Qubit, 367 Gates)
+Circuiy Producting: Test 053 (24 Qubit)
+Test 053 generated: circuits/test_053_24q.pkl
+Running: Test 053 (24 Qubit, 365 Gates)
+Circuiy Producting: Test 054 (24 Qubit)
+Test 054 generated: circuits/test_054_24q.pkl
+Running: Test 054 (24 Qubit, 360 Gates)
+Circuiy Producting: Test 055 (24 Qubit)
+Test 055 generated: circuits/test_055_24q.pkl
+Running: Test 055 (24 Qubit, 364 Gates)
+Circuiy Producting: Test 056 (24 Qubit)
+Test 056 generated: circuits/test_056_24q.pkl
+Running: Test 056 (24 Qubit, 362 Gates)
+Circuiy Producting: Test 057 (24 Qubit)
+Test 057 generated: circuits/test_057_24q.pkl
+Running: Test 057 (24 Qubit, 365 Gates)
+Circuiy Producting: Test 058 (24 Qubit)
+Test 058 generated: circuits/test_058_24q.pkl
+Running: Test 058 (24 Qubit, 367 Gates)
+Circuiy Producting: Test 059 (24 Qubit)
+Test 059 generated: circuits/test_059_24q.pkl
+Running: Test 059 (24 Qubit, 368 Gates)
+Circuiy Producting: Test 060 (24 Qubit)
+Test 060 generated: circuits/test_060_24q.pkl
+Running: Test 060 (24 Qubit, 368 Gates)
+Circuiy Producting: Test 061 (24 Qubit)
+Test 061 generated: circuits/test_061_24q.pkl
+Running: Test 061 (24 Qubit, 366 Gates)
+Circuiy Producting: Test 062 (24 Qubit)
+Test 062 generated: circuits/test_062_24q.pkl
+Running: Test 062 (24 Qubit, 369 Gates)
+Circuiy Producting: Test 063 (24 Qubit)
+Test 063 generated: circuits/test_063_24q.pkl
+Running: Test 063 (24 Qubit, 362 Gates)
+Circuiy Producting: Test 064 (24 Qubit)
+Test 064 generated: circuits/test_064_24q.pkl
+Running: Test 064 (24 Qubit, 368 Gates)
+Circuiy Producting: Test 065 (24 Qubit)
+Test 065 generated: circuits/test_065_24q.pkl
+Running: Test 065 (24 Qubit, 369 Gates)
+Circuiy Producting: Test 066 (24 Qubit)
+Test 066 generated: circuits/test_066_24q.pkl
+Running: Test 066 (24 Qubit, 353 Gates)
+Circuiy Producting: Test 067 (24 Qubit)
+Test 067 generated: circuits/test_067_24q.pkl
+Running: Test 067 (24 Qubit, 373 Gates)
+Circuiy Producting: Test 068 (24 Qubit)
+Test 068 generated: circuits/test_068_24q.pkl
+Running: Test 068 (24 Qubit, 364 Gates)
+Circuiy Producting: Test 069 (24 Qubit)
+Test 069 generated: circuits/test_069_24q.pkl
+Running: Test 069 (24 Qubit, 368 Gates)
+Circuiy Producting: Test 070 (24 Qubit)
+Test 070 generated: circuits/test_070_24q.pkl
+Running: Test 070 (24 Qubit, 370 Gates)
+Circuiy Producting: Test 071 (24 Qubit)
+Test 071 generated: circuits/test_071_24q.pkl
+Running: Test 071 (24 Qubit, 364 Gates)
+Circuiy Producting: Test 072 (24 Qubit)
+Test 072 generated: circuits/test_072_24q.pkl
+Running: Test 072 (24 Qubit, 367 Gates)
+Circuiy Producting: Test 073 (24 Qubit)
+Test 073 generated: circuits/test_073_24q.pkl
+Running: Test 073 (24 Qubit, 366 Gates)
+Circuiy Producting: Test 074 (24 Qubit)
+Test 074 generated: circuits/test_074_24q.pkl
+Running: Test 074 (24 Qubit, 364 Gates)
+Circuiy Producting: Test 075 (24 Qubit)
+Test 075 generated: circuits/test_075_24q.pkl
+Running: Test 075 (24 Qubit, 363 Gates)
+Circuiy Producting: Test 076 (28 Qubit)
+Test 076 generated: circuits/test_076_28q.pkl
+Running: Test 076 (28 Qubit, 417 Gates)
+Circuiy Producting: Test 077 (28 Qubit)
+Test 077 generated: circuits/test_077_28q.pkl
+Running: Test 077 (28 Qubit, 434 Gates)
+Circuiy Producting: Test 078 (28 Qubit)
+Test 078 generated: circuits/test_078_28q.pkl
+Running: Test 078 (28 Qubit, 430 Gates)
+Circuiy Producting: Test 079 (28 Qubit)
+Test 079 generated: circuits/test_079_28q.pkl
+Running: Test 079 (28 Qubit, 432 Gates)
+Circuiy Producting: Test 080 (28 Qubit)
+Test 080 generated: circuits/test_080_28q.pkl
+Running: Test 080 (28 Qubit, 426 Gates)
+Circuiy Producting: Test 081 (28 Qubit)
+Test 081 generated: circuits/test_081_28q.pkl
+Running: Test 081 (28 Qubit, 423 Gates)
+Circuiy Producting: Test 082 (28 Qubit)
+Test 082 generated: circuits/test_082_28q.pkl
+Running: Test 082 (28 Qubit, 427 Gates)
+Circuiy Producting: Test 083 (28 Qubit)
+Test 083 generated: circuits/test_083_28q.pkl
+Running: Test 083 (28 Qubit, 423 Gates)
+Traceback (most recent call last):
+  File "/home/Fuad_Nasirli/Documents/app/tests/run_quimb.py", line 40, in <module>
+    main()
+    ~~~~^^
+  File "/home/Fuad_Nasirli/Documents/app/tests/run_quimb.py", line 25, in main
+    sample_res = next(circ.sample(1, qubits=[q]))
+  File "/home/Fuad_Nasirli/Documents/app/q_venv/lib/python3.14/site-packages/quimb/tensor/circuit/exact.py", line 1259, in sample
+    p = self.compute_marginal(
+        where=where,
+    ...<6 lines>...
+        simplify_equalize_norms=simplify_equalize_norms,
+    )
+  File "/home/Fuad_Nasirli/Documents/app/q_venv/lib/python3.14/site-packages/quimb/tensor/circuit/exact.py", line 851, in compute_marginal
+    nm_lc = self.get_rdm_lightcone_simplified(region, **fs_opts)
+  File "/home/Fuad_Nasirli/Documents/app/q_venv/lib/python3.14/site-packages/quimb/tensor/circuit/exact.py", line 406, in get_rdm_lightcone_simplified
+    rho_lc.full_simplify_(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        seq=seq,
+        ^^^^^^^^
+    ...<2 lines>...
+        equalize_norms=equalize_norms,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/Fuad_Nasirli/Documents/app/q_venv/lib/python3.14/site-packages/quimb/tensor/tensor_core.py", line 11888, in full_simplify
+    tn.rank_simplify_(
+    ~~~~~~~~~~~~~~~~~^
+        output_inds=ix_o,
+        ^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        **rank_simplify_opts,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/Fuad_Nasirli/Documents/app/q_venv/lib/python3.14/site-packages/quimb/tensor/tensor_core.py", line 11210, in rank_simplify
+    tn *= prod(scalars)
+  File "/home/Fuad_Nasirli/Documents/app/q_venv/lib/python3.14/site-packages/quimb/tensor/tensor_core.py", line 5111, in __imul__
+    return self.multiply_(other)
+           ~~~~~~~~~~~~~~^^^^^^^
+  File "/home/Fuad_Nasirli/Documents/app/q_venv/lib/python3.14/site-packages/quimb/tensor/tensor_core.py", line 5048, in multiply
+    x_sign = x / x_abs
+             ~~^~~~~~~
+ZeroDivisionError: division by zero
+ERROR: run_quimb.py failed for Test 083 (28 Qubit)
+Circuiy Producting: Test 084 (28 Qubit)
+Test 084 generated: circuits/test_084_28q.pkl
+Running: Test 084 (28 Qubit, 417 Gates)
+Circuiy Producting: Test 085 (28 Qubit)
+Test 085 generated: circuits/test_085_28q.pkl
+Running: Test 085 (28 Qubit, 425 Gates)
+Circuiy Producting: Test 086 (28 Qubit)
+Test 086 generated: circuits/test_086_28q.pkl
+Running: Test 086 (28 Qubit, 429 Gates)
+Circuiy Producting: Test 087 (28 Qubit)
+Test 087 generated: circuits/test_087_28q.pkl
+Running: Test 087 (28 Qubit, 422 Gates)
+Circuiy Producting: Test 088 (28 Qubit)
+Test 088 generated: circuits/test_088_28q.pkl
+Running: Test 088 (28 Qubit, 428 Gates)
+Circuiy Producting: Test 089 (28 Qubit)
+Test 089 generated: circuits/test_089_28q.pkl
+Running: Test 089 (28 Qubit, 429 Gates)
+Circuiy Producting: Test 090 (28 Qubit)
+Test 090 generated: circuits/test_090_28q.pkl
+Running: Test 090 (28 Qubit, 430 Gates)
+Circuiy Producting: Test 091 (28 Qubit)
+Test 091 generated: circuits/test_091_28q.pkl
+Running: Test 091 (28 Qubit, 425 Gates)
+Circuiy Producting: Test 092 (28 Qubit)
+Test 092 generated: circuits/test_092_28q.pkl
+Running: Test 092 (28 Qubit, 427 Gates)
+Circuiy Producting: Test 093 (28 Qubit)
+Test 093 generated: circuits/test_093_28q.pkl
+Running: Test 093 (28 Qubit, 426 Gates)
+Circuiy Producting: Test 094 (28 Qubit)
+Test 094 generated: circuits/test_094_28q.pkl
+Running: Test 094 (28 Qubit, 425 Gates)
+Circuiy Producting: Test 095 (28 Qubit)
+Test 095 generated: circuits/test_095_28q.pkl
+Running: Test 095 (28 Qubit, 432 Gates)
+Circuiy Producting: Test 096 (28 Qubit)
+Test 096 generated: circuits/test_096_28q.pkl
+Running: Test 096 (28 Qubit, 422 Gates)
+Circuiy Producting: Test 097 (28 Qubit)
+Test 097 generated: circuits/test_097_28q.pkl
+Running: Test 097 (28 Qubit, 432 Gates)
+Circuiy Producting: Test 098 (28 Qubit)
+Test 098 generated: circuits/test_098_28q.pkl
+Running: Test 098 (28 Qubit, 431 Gates)
+Circuiy Producting: Test 099 (28 Qubit)
+Test 099 generated: circuits/test_099_28q.pkl
+Running: Test 099 (28 Qubit, 422 Gates)
+Circuiy Producting: Test 100 (28 Qubit)
+Test 100 generated: circuits/test_100_28q.pkl
+Running: Test 100 (28 Qubit, 426 Gates)
+Completed: 'final_performance_results.csv'
+341652.46user 677.86system 9:51:36elapsed 964%CPU (0avgtext+0avgdata 6574852maxresident)k
+1016inputs+80024outputs (0major+91557201minor)pagefaults 0swaps
