@@ -10,10 +10,6 @@ amount of state-vector work for circuits whose qubits remain weakly entangled.
 The project also includes state-vector fidelity checks, benchmark runners, and
 optional model-training utilities.
 
-> ML-QDES is a research and simulation project, not a fault-tolerant quantum
-> computing platform. Benchmark results depend on the circuit, hardware,
-> compiler, Python environment, and optional dependencies.
-
 ## Contents
 
 - [Highlights](#highlights)
@@ -27,44 +23,6 @@ optional model-training utilities.
 - [Optional entanglement model](#optional-entanglement-model)
 - [Repository map](#repository-map)
 - [License and authorship](#license-and-authorship)
-
-## Highlights
-
-- **Grouped simulation:** `QuantumSystem` tracks qubits in separate groups and
-  merges groups when gates couple them. It checks candidate separations before
-  splitting a group again.
-- **C++ numerical kernels:** state-vector gate application, sampling, and
-  entanglement-related operations are provided by the `utils_cside` extension.
-- **Inverse-CDF sampling:** seeded sampling is deterministic for a fixed
-  environment and input. Independent groups use distinct deterministic random
-  streams when their samples are combined.
-- **Reference implementations:** plain and gate-fusion state-vector simulators
-  are available for comparison and validation.
-- **Optional inference and training:** the grouped simulator can use an ONNX
-  model to propose candidate partitions. Exact checks still validate candidate
-  separations. Model training is a separate, optional workflow.
-
-## How it fits together
-
-```mermaid
-flowchart LR
-    A["Circuit operations"] --> B["Python simulator API"]
-    B --> C{"Simulator"}
-    C -->|Grouped| D["Qubit groups and state vectors"]
-    C -->|State vector| E["Single full state vector"]
-    D --> F["C++ / OpenMP kernels"]
-    E --> F
-    D -. optional candidate hints .-> G["ONNX entanglement model"]
-    G -. proposed partitions .-> D
-    F --> H["State, measurements, or samples"]
-    I["Fidelity tests and benchmarks"] --> B
-    I --> J["Quimb reference (optional)"]
-```
-
-The optional inference model is used by the grouped simulator to suggest
-possible partitions. It is not required to use the core simulators. A model
-file can be selected with `QDES_MODEL_PATH`; otherwise ML-QDES searches the
-repository's `model_files/` directory.
 
 ## Requirements and installation
 
@@ -131,78 +89,6 @@ The resulting module is placed under `build/qdes/`. For the usual Python
 installation workflow, `python -m pip install .` builds and installs the
 extension into the active environment.
 
-## Quick start
-
-```python
-from qdes import QuantumSystem
-
-# Prepare a three-qubit GHZ state: (|000> + |111>) / sqrt(2)
-system = QuantumSystem(3)
-system.apply("H", [0])
-system.apply("CX", [0, 1])
-system.apply("CX", [0, 2])
-
-print("Entanglement groups:", system.custom_group_sizes())
-print("4096 shots:", system.sample(count=4096, seed=42))
-state, qubit_order = system.full_state()
-print("Qubit order:", qubit_order)
-print("State vector:", state)
-```
-
-## Simulators and API
-
-| Class | Module | Description |
-|---|---|---|
-| `QuantumSystem` | `qdes.simulator` | Grouped simulator; combines and checks separable subsystems. |
-| `StateVectorQuantumSystem` | `qdes.sv_simulator` | Plain state-vector reference simulator. |
-| `StateVectorQuantumSystem` | `qdes.sv_simulator_gf` | State-vector simulator with gate fusion. |
-
-The two state-vector implementations have the same class name; import the
-module that identifies the implementation you want.
-
-### Core operations
-
-```python
-system.apply("RY", [0], 0.5)  # Apply a named gate with parameters
-system.apply("CX", [0, 1])    # Apply a two-qubit gate
-outcome = system.measure(0)   # Measure one qubit; returns 0 or 1
-
-counts = system.sample(count=1000, seed=7)
-samples = system.sample(count=1000, return_counts=False, seed=7)
-```
-
-- `apply(gate, target_qubits, *params)` applies a named gate in
-  `QuantumSystem`. The state-vector simulators accept a gate matrix and target
-  qubits; see [Supported gates](#supported-gates).
-- `measure(qubit)` measures one qubit and updates/collapses the simulator state.
-- `sample(target_qubits=None, count=1000, return_counts=True, seed=None)`
-  samples without collapsing the state. By default, it samples all qubits.
-  With `return_counts=True`, the result maps bit strings to counts; otherwise
-  it returns an array of integer outcomes.
-- `custom_group_sizes()` reports the grouped simulator's current group sizes.
-- `full_state()` returns the full state vector and the corresponding qubit
-  ordering.
-
-Passing a seed makes sampling repeatable for the same code and environment.
-Exact output sequences can differ across changes to the random-number
-implementation or runtime environment; reproducibility claims should record
-the QDES revision and relevant software environment.
-
-## Supported gates
-
-Gate matrices and constructors are available from `qdes.gates`. `QuantumSystem`
-also accepts gate names in `apply`.
-
-| Category | Gates |
-|---|---|
-| Single-qubit fixed | `X`, `Y`, `Z`, `H`, `S`, `SDG`, `T`, `TDG`, `SX` |
-| Single-qubit parameterized | `RX(θ)`, `RY(θ)`, `RZ(θ)`, `P(φ)`, `U3(θ, φ, λ)` |
-| Two-qubit fixed | `CX`, `CZ`, `SWAP` |
-| Two-qubit parameterized | `CP(φ)`, `CRX(θ)`, `CRY(θ)`, `CRZ(θ)`, `RXX(θ)`, `RYY(θ)`, `RZZ(θ)` |
-
-The order of target qubits matters for multi-qubit gates; for example,
-`system.apply("CX", [control, target])` places the control first.
-
 ## Testing and validation
 
 Run commands from the repository root. Setting `PYTHONPATH` explicitly makes
@@ -258,21 +144,6 @@ benchmark data in `temp/benchmarks/`, and the combined output is written to
 `final_performance_results.csv` in the repository root. The temporary circuit
 and benchmark files are removed at the end. Larger qubit configurations can
 take substantial time and memory; begin with a small test count.
-
-## Optional entanglement model
-
-The grouped simulator can use an ONNX model to propose entanglement
-partitions. To select a model explicitly:
-
-```bash
-export QDES_MODEL_PATH="/path/to/entanglement_model.onnx"
-```
-
-By default, ML-QDES looks for `model_files/entanglement_model.onnx` in the
-current repository and package-relative locations. Model training/data
-generation lives in `training/generate_dataset_and_train.py` and requires
-optional PyTorch/ONNX dependencies. Training can be computationally expensive;
-it is not part of the standard install or quick-start workflow.
 
 ## Repository map
 
